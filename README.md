@@ -1,6 +1,9 @@
 
-# Built on Enslavement – GitHub Pages Website
+# Built on Enslavement – Upgraded Site Layout
 
-Drag-and-drop these files into a GitHub repo. Enable GitHub Pages (Settings > Pages > Source: main / root).
+To publish:
+1. Go to your GitHub repo
+2. Upload: index.html, style.css, README.md, and banner.jpg
+3. Go to Settings > Pages and select main/root
 
-Your site will be live at: https://<your-username>.github.io/<repo-name>/
+Live site will appear at: https://<username>.github.io/<repo-name>/

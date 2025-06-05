@@ -10,21 +10,25 @@ body {
 }
 
 .hero-banner {
-  background: #1a1311 url('texture_bg.jpg') center/cover no-repeat;
-  color: #f2e6dc;
-  padding: 5em 2em;
+  background: url('banner.jpg') center/cover no-repeat;
+  position: relative;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  color: #f7f4f0;
 }
 
-.logo {
-  max-width: 400px;
-  margin-bottom: 1em;
+.hero-banner .overlay {
+  background: rgba(0, 0, 0, 0.55);
+  padding: 3em;
 }
 
 .tagline {
-  font-size: 1.2em;
-  color: #c5a88d;
+  font-size: 1.4em;
   font-style: italic;
+  color: #e7d2be;
 }
 
 section {
@@ -33,22 +37,13 @@ section {
 }
 
 .section-parchment {
-  background: #f2e6dc url('parchment_bg.jpg') center/cover repeat;
+  background: #f2e6dc;
   color: #2b1c1c;
 }
 
 .section-cosmic {
   background: #2a1e2e;
   color: #f7e1ef;
-}
-
-blockquote {
-  margin: 2em auto;
-  padding: 1em 2em;
-  border-left: 4px solid #800000;
-  background: rgba(255,255,255,0.05);
-  max-width: 600px;
-  font-style: italic;
 }
 
 footer {
