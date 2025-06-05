@@ -1,44 +1,72 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Spectral&display=swap');
+
 body {
-  font-family: 'Georgia', serif;
-  background: #f8f4ed;
+  font-family: 'Spectral', serif;
+  background: #fdf8f2;
   color: #1a1311;
   margin: 0;
   padding: 0;
 }
+
 .hero-banner {
-  background: #1a1311;
+  background: #1a1311 url('texture_bg.jpg') center/cover no-repeat;
   color: #f2e6dc;
   padding: 5em 2em;
   text-align: center;
 }
+
+.logo {
+  max-width: 400px;
+  margin-bottom: 1em;
+}
+
 .tagline {
   font-size: 1.2em;
   color: #c5a88d;
+  font-style: italic;
 }
+
 section {
   padding: 4em 2em;
+  text-align: center;
 }
+
 .section-parchment {
-  background: #f2e6dc;
+  background: #f2e6dc url('parchment_bg.jpg') center/cover repeat;
+  color: #2b1c1c;
 }
+
 .section-cosmic {
   background: #2a1e2e;
   color: #f7e1ef;
 }
+
+blockquote {
+  margin: 2em auto;
+  padding: 1em 2em;
+  border-left: 4px solid #800000;
+  background: rgba(255,255,255,0.05);
+  max-width: 600px;
+  font-style: italic;
+}
+
 footer {
   background: #1a1311;
   color: #ccc;
   text-align: center;
   padding: 2em;
 }
+
 .button {
   display: inline-block;
   margin-top: 1em;
   padding: 0.7em 1.5em;
-  background: #800000;
+  background: linear-gradient(to right, #5c1e1e, #800000);
   color: white;
   text-decoration: none;
   font-weight: bold;
   border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
