@@ -1,0 +1,44 @@
+
+body {
+  font-family: 'Georgia', serif;
+  background: #f8f4ed;
+  color: #1a1311;
+  margin: 0;
+  padding: 0;
+}
+.hero-banner {
+  background: #1a1311;
+  color: #f2e6dc;
+  padding: 5em 2em;
+  text-align: center;
+}
+.tagline {
+  font-size: 1.2em;
+  color: #c5a88d;
+}
+section {
+  padding: 4em 2em;
+}
+.section-parchment {
+  background: #f2e6dc;
+}
+.section-cosmic {
+  background: #2a1e2e;
+  color: #f7e1ef;
+}
+footer {
+  background: #1a1311;
+  color: #ccc;
+  text-align: center;
+  padding: 2em;
+}
+.button {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.7em 1.5em;
+  background: #800000;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
